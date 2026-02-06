@@ -1,0 +1,21 @@
+{
+  "dataset": "Stanford Bunny",
+  "working_mesh": "Full (35k)",
+  "n_vertices": 35947,
+  "n_faces": 69451,
+  "volumes": {
+    "divergence_theorem": 0.0023101695723745375,
+    "signed_tetrahedra": 0.0007700565241248463,
+    "trimesh_reference": 0.0007594997749452338,
+    "monte_carlo_50k": 0.0007422758068734911,
+    "voxelization": 0.00015028,
+    "gaussian_density": 0.00028452647461982625,
+    "convex_hull_bound": 0.0012498091240324444
+  },
+  "surface_area": 0.05712878347791963,
+  "is_watertight": false,
+  "gaussian_model": {
+    "n_gaussians": 4085,
+    "sample_rate": 0.5
+  }
+}

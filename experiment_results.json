@@ -1,0 +1,212 @@
+{
+  "experiment": "Reference-Based Volumetric Measurements",
+  "references": [
+    "\ubc15\ubb38\uae30 - \uccb4\uc801 \uce21\uc815",
+    "\ubc15\ub3c4\ud604 - DIMA 69\ucc28"
+  ],
+  "dataset": "Stanford Bunny",
+  "icosphere_convergence": {
+    "target_volume": 4.1887902047863905,
+    "results": [
+      {
+        "Level": 1,
+        "Vertices": 42,
+        "Faces": 80,
+        "Volume (Div)": 3.65871220851216,
+        "Vol Error (%)": 12.654679999693663
+      },
+      {
+        "Level": 2,
+        "Vertices": 162,
+        "Faces": 320,
+        "Volume (Div)": 4.047044679978849,
+        "Vol Error (%)": 3.38392514014127
+      },
+      {
+        "Level": 3,
+        "Vertices": 642,
+        "Faces": 1280,
+        "Volume (Div)": 4.152740817093058,
+        "Vol Error (%)": 0.8606157370245073
+      },
+      {
+        "Level": 4,
+        "Vertices": 2562,
+        "Faces": 5120,
+        "Volume (Div)": 4.1797389479946405,
+        "Vol Error (%)": 0.21608283894016556
+      },
+      {
+        "Level": 5,
+        "Vertices": 10242,
+        "Faces": 20480,
+        "Volume (Div)": 4.186524949278792,
+        "Vol Error (%)": 0.05407899171006856
+      }
+    ]
+  },
+  "bunny_volumes": {
+    "divergence_theorem": 0.0007700565241248458,
+    "signed_tetrahedra": 0.0007700565241248463,
+    "trimesh": 0.0007594997749452338,
+    "capped_div": 0.0007551985594087124,
+    "capped_tet": 0.0007551985594087128,
+    "slice_based_100": 0.0007393933943602515,
+    "truncated_cone_100": 0.0007393701944791604,
+    "convex_hull": 0.0012498091240324444
+  },
+  "capping": {
+    "boundary_edges": 223,
+    "cap_faces_added": 223
+  },
+  "slice_convergence": [
+    {
+      "Slices": 20,
+      "Smoothing": "None",
+      "Volume": 0.0007411683380808664,
+      "Valid Slices": 20,
+      "Err vs DivThm (%)": 3.751437087921599
+    },
+    {
+      "Slices": 20,
+      "Smoothing": "s=0",
+      "Volume": 0.0007410532865667122,
+      "Valid Slices": 20,
+      "Err vs DivThm (%)": 3.766377746243401
+    },
+    {
+      "Slices": 20,
+      "Smoothing": "s=1e-6",
+      "Volume": 0.0007410428246225862,
+      "Valid Slices": 20,
+      "Err vs DivThm (%)": 3.7677363405541113
+    },
+    {
+      "Slices": 50,
+      "Smoothing": "None",
+      "Volume": 0.0007401665871320487,
+      "Valid Slices": 49,
+      "Err vs DivThm (%)": 3.8815250642498538
+    },
+    {
+      "Slices": 50,
+      "Smoothing": "s=0",
+      "Volume": 0.0007400438378527932,
+      "Valid Slices": 49,
+      "Err vs DivThm (%)": 3.8974653589438017
+    },
+    {
+      "Slices": 50,
+      "Smoothing": "s=1e-6",
+      "Volume": 0.0007400522159395754,
+      "Valid Slices": 49,
+      "Err vs DivThm (%)": 3.89637737559197
+    },
+    {
+      "Slices": 100,
+      "Smoothing": "None",
+      "Volume": 0.0007395184158242809,
+      "Valid Slices": 98,
+      "Err vs DivThm (%)": 3.965696977279799
+    },
+    {
+      "Slices": 100,
+      "Smoothing": "s=0",
+      "Volume": 0.0007393933943602515,
+      "Valid Slices": 98,
+      "Err vs DivThm (%)": 3.9819323392451493
+    },
+    {
+      "Slices": 100,
+      "Smoothing": "s=1e-6",
+      "Volume": 0.0007393996788286135,
+      "Valid Slices": 98,
+      "Err vs DivThm (%)": 3.981116234431391
+    },
+    {
+      "Slices": 200,
+      "Smoothing": "None",
+      "Volume": 0.0007408787178545079,
+      "Valid Slices": 195,
+      "Err vs DivThm (%)": 3.78904734343988
+    },
+    {
+      "Slices": 200,
+      "Smoothing": "s=0",
+      "Volume": 0.0007407539392039032,
+      "Valid Slices": 195,
+      "Err vs DivThm (%)": 3.805251173508916
+    },
+    {
+      "Slices": 200,
+      "Smoothing": "s=1e-6",
+      "Volume": 0.000740760328107833,
+      "Valid Slices": 195,
+      "Err vs DivThm (%)": 3.8044215066299634
+    }
+  ],
+  "truncated_cone_convergence": [
+    {
+      "Slices": 20,
+      "Volume": 0.0007394030014114501,
+      "Valid": 20,
+      "Err vs DivThm (%)": 3.980684761840421
+    },
+    {
+      "Slices": 50,
+      "Volume": 0.0007397333363161063,
+      "Valid": 49,
+      "Err vs DivThm (%)": 3.9377872738889215
+    },
+    {
+      "Slices": 100,
+      "Volume": 0.0007393701944791604,
+      "Valid": 98,
+      "Err vs DivThm (%)": 3.9849450896555774
+    },
+    {
+      "Slices": 200,
+      "Volume": 0.0007408134490853093,
+      "Valid": 195,
+      "Err vs DivThm (%)": 3.797523184777988
+    }
+  ],
+  "resolution_study": [
+    {
+      "Label": "Res4 (453)",
+      "Vertices": 453,
+      "Faces": 948,
+      "Vol_Div": 0.0007301991130130885,
+      "Vol_Tet": 0.0007301991130130885,
+      "Area": 0.05459250506334472,
+      "Err_vs_Full (%)": 5.175907204611305
+    },
+    {
+      "Label": "Res3 (1.9k)",
+      "Vertices": 1889,
+      "Faces": 3851,
+      "Vol_Div": 0.0007623164240339372,
+      "Vol_Tet": 0.0007623164240339377,
+      "Area": 0.0557946062539902,
+      "Err_vs_Full (%)": 1.0051340191819202
+    },
+    {
+      "Label": "Res2 (8k)",
+      "Vertices": 8171,
+      "Faces": 16301,
+      "Vol_Div": 0.0007688513824830245,
+      "Vol_Tet": 0.0007688513824830242,
+      "Area": 0.056556032267446515,
+      "Err_vs_Full (%)": 0.15650041316005187
+    },
+    {
+      "Label": "Full (35k)",
+      "Vertices": 35947,
+      "Faces": 69451,
+      "Vol_Div": 0.0007700565241248458,
+      "Vol_Tet": 0.0007700565241248463,
+      "Area": 0.05712878347791963,
+      "Err_vs_Full (%)": 0.0
+    }
+  ]
+}
